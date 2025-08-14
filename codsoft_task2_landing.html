@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Ravi's Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      justify-content: space-around;
+      background-color: #fff;
+    }
+
+    .column {
+      flex: 1 1 300px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #e6f2ff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .column h2 {
+      margin-bottom: 15px;
+      color: #0077cc;
+    }
+
+    .column p {
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .main {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Ravi's World</h1>
+    <p>Your one-stop destination for creativity and code</p>
+  </header>
+
+  <div class="main">
+    <div class="column">
+      <h2>About Me</h2>
+      <p>Hi! I'm Ravi Prakash Rauniyar, a web development enthusiast currently interning at CodSoft. I love building clean, responsive websites and exploring new tech.</p>
+    </div>
+    <div class="column">
+      <h2>My Mission</h2>
+      <p>To create user-friendly digital experiences that combine design and functionality. I believe in learning by doing and pushing boundaries with every project.</p>
+    </div>
+    <div class="column">
+      <h2>Get in Touch</h2>
+      <p>Email: ravi@example.com<br>LinkedIn: <a href="https://linkedin.com/in/ravi" target="_blank">linkedin.com/in/ravi</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ravi Prakash Rauniyar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
